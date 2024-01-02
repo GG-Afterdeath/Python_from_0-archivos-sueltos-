@@ -1,0 +1,10 @@
+print("(----------------------------------------)")
+nombre =input("Por favor ingresa tu nombre: ")
+idol=input(nombre + " ingresa tu Idol favorito: ")
+edad= int(input("¿Cual es la edad de "+ idol+"?"))
+altura= float(input("¿Cuanto mide " +idol +"?"))
+
+print("+---------------------------------+")
+print(nombre, "tu Idol favorit@ es", idol)
+print(idol, "mide", altura, "y tiene", edad, "años")
+print("+---------------------------------+")
